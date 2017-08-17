@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@bottomView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    _bottomView = [[UIView alloc] initWithFrame:CGRectMake(0, pScreenHeight - 50, pScreenWidth, 50)];
+    _bottomView.backgroundColor = [UIColor whiteColor];
+    
+    _totalLabel = [[UILabel alloc]initWithFrame:CGRectMake(10, 0, pScreenWidth - 150, 50)];
+    _totalLabel.font = [UIFont systemFontOfSize:16.0f];
+    NSString * totalStr = [NSString stringWithFormat:@"总需:%ld积分", (long)_totalCredit];
+    NSUInteger length = totalStr.length - 3;
+    
+    NSMutableAttributedString *totalString = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:@"%@",totalStr]];
+    [totalString addAttribute:NSForegroundColorAttributeName value:RedFontColor range:NSMakeRange(3,length)];
+    _totalLabel.attributedText = totalString;
+    [_bottomView addSubview:_totalLabel];
+    
+    UIButton *submitButton = [UIButton  buttonWithType:UIButtonTypeCustom];
+    submitButton.frame = CGRectMake(pScreenWidth - 150, 0, 150, 50);
+    [submitButton setTitle:@"结算" forState:UIControlStateNormal];
+    submitButton.tintColor = [UIColor clearColor];
+    submitButton.titleLabel.font = [UIFont systemFontOfSize:18.0f];
+    submitButton.backgroundColor = BackYellow;
+    [submitButton setTitleColor:GrayFontColor forState:UIControlStateNormal];
+    [submitButton addTarget:self action:@selector(clickSubmitButton:) forControlEvents:UIControlEventTouchUpInside];
+    [_bottomView addSubview:submitButton];
+    [self.view addSubview:_bottomView];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>BAFC1474-2B57-4307-8ACB-12110E2C3B64</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>bottomView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
