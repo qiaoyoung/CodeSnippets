@@ -10,13 +10,13 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>/** &lt;#描述#&gt; */
-@property(nonatomic,assign) &lt;#Class#&gt; &lt;#name#&gt;;</string>
+@property (nonatomic, assign) &lt;#Class#&gt; &lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>398473D2-71C6-4B78-BEB1-0C0F435BBFBB</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property(nonatomic,assign) &lt;#Class#&gt; &lt;#name#&gt;;</string>
+	<string>@property(nonatomic, assign) &lt;#Class#&gt; &lt;#name#&gt;;</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
