@@ -3,22 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>copy</string>
+	<string>aaEnum</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/// &lt;#描述#&gt;
-@property (nonatomic, copy) &lt;#Class#&gt; *&lt;#name#&gt;;</string>
+	<string>typedef NS_ENUM(NSUInteger, &lt;#SEGEnumName#&gt;) {
+    &lt;#SEGEnumName#&gt;_&lt;#status1#&gt; = 0, /*&lt;#注释#&gt;*/
+    &lt;#SEGEnumName#&gt;_&lt;#status2#&gt; = 1 /*&lt;#注释#&gt;*/
+};</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7528A79B-F5C4-426E-BF0B-C0BAA30BFCFE</string>
+	<string>CEB3BA0C-94FA-448C-9393-1989E282ABF0</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>数字枚举定义</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property(nonatomic, copy) &lt;#Class#&gt; *&lt;#name#&gt;;</string>
+	<string>NS_ENUM Define</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

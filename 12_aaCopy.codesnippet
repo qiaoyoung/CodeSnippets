@@ -3,22 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>copy</string>
+	<string>aaCopy</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/// &lt;#描述#&gt;
-@property (nonatomic, copy) &lt;#Class#&gt; *&lt;#name#&gt;;</string>
+	<string>/**
+ &lt;#属性描述#&gt;
+ */
+@property (nonatomic, copy) NSString *&lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7528A79B-F5C4-426E-BF0B-C0BAA30BFCFE</string>
+	<string>DAC1E77E-98D8-4C29-9E25-73D3BA33B314</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>copy属性定义, 常用于字符串</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property(nonatomic, copy) &lt;#Class#&gt; *&lt;#name#&gt;;</string>
+	<string>Copy Property Define</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

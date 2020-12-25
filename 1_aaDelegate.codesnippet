@@ -3,22 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>copy</string>
+	<string>aaDelegate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/// &lt;#描述#&gt;
-@property (nonatomic, copy) &lt;#Class#&gt; *&lt;#name#&gt;;</string>
+	<string>/**
+ &lt;#Description#&gt;
+ */
+@protocol &lt;#SEGMyProtocol#&gt;Delegate &lt;NSObject&gt;
+
+@end
+
+@property(nonatomic, weak) id&lt;&lt;#SEGMyProtocol#&gt;Delegate&gt; delegate;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7528A79B-F5C4-426E-BF0B-C0BAA30BFCFE</string>
+	<string>DF43CD1B-E8E4-4910-B3EF-41942F98EB54</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>代理定义</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property(nonatomic, copy) &lt;#Class#&gt; *&lt;#name#&gt;;</string>
+	<string>Delegate Define</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

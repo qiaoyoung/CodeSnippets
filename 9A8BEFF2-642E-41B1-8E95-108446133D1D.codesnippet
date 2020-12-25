@@ -3,22 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>copy</string>
+	<string>getter</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/// &lt;#描述#&gt;
-@property (nonatomic, copy) &lt;#Class#&gt; *&lt;#name#&gt;;</string>
+	<string>- (&lt;#ClassName#&gt; *)&lt;#VarName#&gt; {
+    if (!_&lt;#VarName#&gt;) {
+        CGRect rect = CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);
+        _&lt;#VarName#&gt; = [[&lt;#ClassName#&gt; alloc] initWithFrame:rect];
+        _&lt;#VarName#&gt;.backgroundColor = [UIColor whiteColor];
+        _&lt;#VarName#&gt;.layer.cornerRadius = YES;
+    }
+    return _&lt;#VarName#&gt;;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7528A79B-F5C4-426E-BF0B-C0BAA30BFCFE</string>
+	<string>9A8BEFF2-642E-41B1-8E95-108446133D1D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property(nonatomic, copy) &lt;#Class#&gt; *&lt;#name#&gt;;</string>
+	<string>lazy load</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -9,13 +9,15 @@
 		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/** &lt;#描述#&gt; */
+	<string>/// &lt;#描述#&gt; 
 @property (nonatomic, copy) NSString *&lt;#name#&gt;;
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>D20BF51F-C2B5-42FF-8CD2-D9265188B5D3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>@property (nonatomic, copy) NSString *&lt;#name#&gt;;</string>
 	<key>IDECodeSnippetUserSnippet</key>

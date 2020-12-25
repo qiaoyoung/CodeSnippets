@@ -3,22 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>copy</string>
+	<string>aacomFunc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/// &lt;#描述#&gt;
-@property (nonatomic, copy) &lt;#Class#&gt; *&lt;#name#&gt;;</string>
+	<string>/**
+ * &lt;#内容#&gt;
+ * @author &lt;#作者标识#&gt;
+ * @param &lt;#参数1#&gt;  &lt;#描述1#&gt;
+ * @param &lt;#参数2#&gt;  &lt;#描述2#&gt;
+ * @see &lt;#引用（可选#&gt;）
+ * @return &lt;#数据返回描述（可选）#&gt;
+ */</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7528A79B-F5C4-426E-BF0B-C0BAA30BFCFE</string>
+	<string>6078D705-113A-48CD-92F7-FA653EF70F0F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>方法注释</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property(nonatomic, copy) &lt;#Class#&gt; *&lt;#name#&gt;;</string>
+	<string>Function Comment</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

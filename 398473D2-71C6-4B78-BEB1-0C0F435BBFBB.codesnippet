@@ -6,15 +6,17 @@
 	<string>assign</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/** &lt;#描述#&gt; */
+	<string>/// &lt;#描述#&gt;
 @property (nonatomic, assign) &lt;#Class#&gt; &lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>398473D2-71C6-4B78-BEB1-0C0F435BBFBB</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>@property(nonatomic, assign) &lt;#Class#&gt; &lt;#name#&gt;;</string>
 	<key>IDECodeSnippetUserSnippet</key>

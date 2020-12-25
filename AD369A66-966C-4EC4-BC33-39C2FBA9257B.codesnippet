@@ -6,17 +6,18 @@
 	<string>ss</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark ---- &lt;#描述#&gt; ----
-</string>
+	<string>#pragma mark - &lt;#描述#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>AD369A66-966C-4EC4-BC33-39C2FBA9257B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>#pragma mark ---- &lt;#描述#&gt; ----</string>
+	<string>#pragma mark - &lt;#描述#&gt; </string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
